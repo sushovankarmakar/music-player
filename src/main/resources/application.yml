@@ -1,0 +1,20 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://sushovan:jdF4PyYblQKxcuEP@cluster0.xidpt.mongodb.net/music-database?retryWrites=true&w=majority
+
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAXMFZED3YAQYQY35L
+      secret-key: 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
+    region:
+      static: us-east-2
+
+application:
+  bucket:
+    name: music-data-storage
+
+server:
+  port: 8080
+
